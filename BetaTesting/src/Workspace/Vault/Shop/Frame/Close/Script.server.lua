@@ -1,0 +1,5 @@
+script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent:TweenPosition(UDim2.new(0.3,0,-1,0))
+	wait(1)
+	script.Parent.Parent.Parent:remove()
+end)
