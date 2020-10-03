@@ -8,7 +8,7 @@ function onClicked()
 
 		if open == false then
 			script.Parent.Main.Anchored = true
-			cfr = script.Parent.Main.CFrame
+			local cfr = script.Parent.Main.CFrame
 			open = true
 			for i = 0,1.5,0.1 do
 			wait(0.05) --close speed
@@ -23,7 +23,7 @@ function onClicked()
 
 		if open == false then
 			script.Parent.Main.Anchored = true
-			cfr = script.Parent.Main.CFrame
+			local cfr = script.Parent.Main.CFrame
 			open = true
 			for i = 0,1.5,0.1 do
 			wait(0.05) --open speed

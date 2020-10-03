@@ -104,7 +104,7 @@ function Fire(v)
  	missile.CFrame = CFrame.new(Handle.Position, Humanoid.TargetPoint) + (Handle.CFrame.lookVector * (missile.Size.z * 2))
 	gyro.cframe = missile.CFrame
 	
-	Spawn(function()
+	spawn(function()
 		for i = 1, 100 do
 			wait(0.1 * i)
 			if gyro and gyro.Parent then
